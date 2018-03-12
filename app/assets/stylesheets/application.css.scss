@@ -19,6 +19,7 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+
 /* Typography Styles */
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
@@ -41,7 +42,8 @@ h1, h2, h3 {
     font-weight: 800;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a  {
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-nav > li > a  {
     color: white;
     &:hover {
         color: white;
@@ -63,7 +65,7 @@ h1, h2, h3 {
 /* Homepage Styles */
 .home-callout {
     color: white;
-    margin: -20px;
+    margin-top: -20px;
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -73,5 +75,5 @@ h1, h2, h3 {
 }
 
 .home-signup-links {
-    margin-top: 45px;
+    margin-top: 30px;
 }
