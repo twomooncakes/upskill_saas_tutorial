@@ -21,8 +21,17 @@
 
 
 /* Typography Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+}
+
+.regular-text {
+    color: #51667a;
 }
 
 /* Background Gradient */
